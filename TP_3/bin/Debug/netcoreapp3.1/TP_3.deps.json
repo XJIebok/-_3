@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "TP_3/1.0.0": {
+        "dependencies": {
+          "ClosedXML": "0.104.2"
+        },
+        "runtime": {
+          "TP_3.dll": {}
+        }
+      },
       "ClosedXML/0.104.2": {
         "dependencies": {
           "ClosedXML.Parser": "1.2.0",
@@ -90,6 +98,11 @@
     }
   },
   "libraries": {
+    "TP_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "ClosedXML/0.104.2": {
       "type": "package",
       "serviceable": true,
