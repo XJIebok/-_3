@@ -21,6 +21,10 @@ namespace TP_3.m
         {
             this.date = Convert.ToDateTime(date.ToString());
         }
+        public override string ToString()
+        {
+            return date.ToString("yyyy-MM");
+        }
     }
     public class Inflation : Specifications // Данные по инфляции
     {
@@ -33,6 +37,10 @@ namespace TP_3.m
         public override void Set(object inflation)
         {
             this.inflation = float.Parse(inflation.ToString());
+        }
+        public override string ToString()
+        {
+            return inflation.ToString();
         }
     }
 }
